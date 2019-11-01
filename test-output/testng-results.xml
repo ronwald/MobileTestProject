@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21997" started-at="2019-11-01T15:09:36 SGT" finished-at="2019-11-01T15:09:57 SGT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21997" started-at="2019-11-01T15:09:36 SGT" finished-at="2019-11-01T15:09:57 SGT">
+      <class name="TestLogin.NewTest">
+        <test-method status="PASS" signature="testSuccessfulLogin()[pri:0, instance:TestLogin.NewTest@6483f5ae]" name="testSuccessfulLogin" duration-ms="21973" started-at="2019-11-01T15:09:36 SGT" finished-at="2019-11-01T15:09:57 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+      </class> <!-- TestLogin.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
