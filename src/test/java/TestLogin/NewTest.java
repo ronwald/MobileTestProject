@@ -22,7 +22,9 @@ public class NewTest  {
 		driver.findElementByLinkText("Sign in").click();	
 		driver.findElementById("email").sendKeys("blog.cucumber@gmail.com");
 		driver.findElementById("passwd").sendKeys("Cucumber@blog");
-	    driver.findElementById("SubmitLogin").click();				
+	    driver.findElementById("SubmitLogin").click();
+	    //close the browser
+	    driver.quit();
 		
 	}
 
