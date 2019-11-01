@@ -2,15 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24318" started-at="2019-11-01T15:51:21 SGT" finished-at="2019-11-01T15:51:46 SGT">
+  <suite name="Suite" duration-ms="24402" started-at="2019-11-01T18:12:06 SGT" finished-at="2019-11-01T18:12:30 SGT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24318" started-at="2019-11-01T15:51:21 SGT" finished-at="2019-11-01T15:51:46 SGT">
+    <test name="Test" duration-ms="24402" started-at="2019-11-01T18:12:06 SGT" finished-at="2019-11-01T18:12:30 SGT">
       <class name="TestLogin.NewTest">
-        <test-method status="PASS" signature="testSuccessfulLogin()[pri:0, instance:TestLogin.NewTest@6483f5ae]" name="testSuccessfulLogin" duration-ms="24295" started-at="2019-11-01T15:51:21 SGT" finished-at="2019-11-01T15:51:46 SGT">
+        <test-method status="PASS" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:TestLogin.NewTest@3e77a1ed]" name="startReport" is-config="true" duration-ms="74" started-at="2019-11-01T18:12:06 SGT" finished-at="2019-11-01T18:12:06 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="testSuccessfulLogin()[pri:0, instance:TestLogin.NewTest@3e77a1ed]" name="testSuccessfulLogin" duration-ms="24131" started-at="2019-11-01T18:12:06 SGT" finished-at="2019-11-01T18:12:30 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestLogin.NewTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="179" started-at="2019-11-01T18:12:30 SGT" finished-at="2019-11-01T18:12:30 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- TestLogin.NewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

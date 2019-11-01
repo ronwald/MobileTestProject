@@ -8,14 +8,16 @@ import io.appium.java_client.MobileElement;
 
 
 
-public class NewTest  {
+public class NewTest extends MyUtilities  {
 	
 
 	
 	
 	@Test
 	public static void testSuccessfulLogin() {
-			
+		
+		test = extent.createTest("TESTCASE 1 : Test Successful Login to DP - Staging");
+		
 		AppiumDriver<MobileElement> driver = MyUtilities.testInitialize();
 		
 		driver.get("http://www.automationpractice.com");	
