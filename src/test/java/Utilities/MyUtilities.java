@@ -33,7 +33,7 @@ public class MyUtilities {
 	WebDriver driver;
 		
 	
-	  public static  AppiumDriver<MobileElement> testInitialize ( )  {
+	  public static  AppiumDriver<MobileElement> testInitialize ()  {
 		  
 		  	AppiumDriver<MobileElement> driver = null;
 		  	
@@ -98,6 +98,7 @@ public class MyUtilities {
 		htmlReporter.config().setTheme(Theme.DARK);
 		htmlReporter.config().setDocumentTitle("Test Automation Report");
 		htmlReporter.config().setReportName("Test Report");
+	
 
 			
 		
