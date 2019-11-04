@@ -29,6 +29,8 @@ public class NewTest extends MyUtilities  {
 		
 		driver.get("http://www.automationpractice.com");
 		Wait();
+		
+		
 		//check if page is launched successfully by checking the page title
 	    if (driver.getTitle().toString().equalsIgnoreCase("My Storedsdsdsdsds") ) {
 			test.log(Status.PASS, "Page successfully launched");	
