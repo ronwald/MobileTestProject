@@ -105,7 +105,7 @@ public class MyUtilities {
 
 
 	
-	public void takeScreenshot(WebDriver driver) throws IOException {
+	public static void takeScreenshot(WebDriver driver) throws IOException {
 		
 		//driver.manage().window().maximize();
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
