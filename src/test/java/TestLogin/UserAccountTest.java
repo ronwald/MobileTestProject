@@ -37,6 +37,8 @@ public class UserAccountTest extends MyUtilities  {
 		driver.findElementById("email").sendKeys("blog.cucumber@gmail.com");
 		driver.findElementById("passwd").sendKeys("Cucumber@blog");
 	    driver.findElementById("SubmitLogin").click();
+	    Wait();
+	    
 	    //close the browser
 	    driver.quit();
 		
