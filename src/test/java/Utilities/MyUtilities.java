@@ -31,6 +31,7 @@ public class MyUtilities {
 	public static ExtentTest test;
 	
 	WebDriver driver;
+
 		
 	
 	  public static  AppiumDriver<MobileElement> testInitialize ()  {
@@ -42,7 +43,7 @@ public class MyUtilities {
 			cap.setCapability("deviceName", "My Emulator");
 			cap.setCapability("udid", "emulator-5554");
 			cap.setCapability("platformName", "Android");
-			cap.setCapability("platformVersiob", "9");
+			cap.setCapability("platformVersion", "9");
 			cap.setCapability("browserName", "Chrome");
 			cap.setCapability("noReset", true);
 								

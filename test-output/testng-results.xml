@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="74910" started-at="2019-11-04T16:45:00 SGT" finished-at="2019-11-04T16:46:15 SGT">
+  <suite name="Suite" duration-ms="97435" started-at="2019-11-20T11:22:17 SGT" finished-at="2019-11-20T11:23:55 SGT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="74910" started-at="2019-11-04T16:45:00 SGT" finished-at="2019-11-04T16:46:15 SGT">
+    <test name="Test" duration-ms="97435" started-at="2019-11-20T11:22:17 SGT" finished-at="2019-11-20T11:23:55 SGT">
       <class name="TestLogin.UserAccountTest">
-        <test-method status="PASS" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:TestLogin.UserAccountTest@3e77a1ed]" name="startReport" is-config="true" duration-ms="75" started-at="2019-11-04T16:45:00 SGT" finished-at="2019-11-04T16:45:00 SGT">
+        <test-method status="PASS" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:TestLogin.UserAccountTest@3e77a1ed]" name="startReport" is-config="true" duration-ms="77" started-at="2019-11-20T11:22:17 SGT" finished-at="2019-11-20T11:22:17 SGT">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="testSuccessfulLogin()[pri:0, instance:TestLogin.UserAccountTest@3e77a1ed]" name="testSuccessfulLogin" duration-ms="28217" started-at="2019-11-04T16:45:00 SGT" finished-at="2019-11-04T16:45:29 SGT">
+        <test-method status="PASS" signature="testSuccessfulLogin()[pri:0, instance:TestLogin.UserAccountTest@3e77a1ed]" name="testSuccessfulLogin" duration-ms="46656" started-at="2019-11-20T11:22:17 SGT" finished-at="2019-11-20T11:23:04 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulLogin -->
-        <test-method status="PASS" signature="testAddAddress()[pri:1, instance:TestLogin.UserAccountTest@3e77a1ed]" name="testAddAddress" duration-ms="46392" started-at="2019-11-04T16:45:29 SGT" finished-at="2019-11-04T16:46:15 SGT">
+        <test-method status="PASS" signature="testAddAddress()[pri:1, instance:TestLogin.UserAccountTest@3e77a1ed]" name="testAddAddress" duration-ms="50430" started-at="2019-11-20T11:23:04 SGT" finished-at="2019-11-20T11:23:54 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddAddress -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestLogin.UserAccountTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="205" started-at="2019-11-04T16:46:15 SGT" finished-at="2019-11-04T16:46:15 SGT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestLogin.UserAccountTest@3e77a1ed]" name="tearDown" is-config="true" duration-ms="250" started-at="2019-11-20T11:23:54 SGT" finished-at="2019-11-20T11:23:55 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
